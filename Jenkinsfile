@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Pull Souce Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/sambit81/Netflix-Homepage'
+                git branch: 'main', url: 'https://github.com/shahedcisa/comit-1'
             }
         }
         stage('Execute a command') {
